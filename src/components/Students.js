@@ -11,9 +11,8 @@ const Students = props => {
   const studentName = array.join("");
   const pickStudent = props.pickStudent;
 
-  useEffect(() => {
-    pickStudent(studentName);
-  }, []);
+  // eslint-disable-next-line
+  useEffect(() => { pickStudent(studentName)}, []);
 
   let phone, email, age, imgUrl, checkboxStyle;
   props.studentInfo.forEach(student => {
