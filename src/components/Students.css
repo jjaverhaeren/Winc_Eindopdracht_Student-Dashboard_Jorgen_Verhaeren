@@ -1,0 +1,168 @@
+.student-main {
+  background-color: rgb(55, 80, 100);
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.student-left_container {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  margin: 5px;
+  background-color: rgb(137, 165, 185);
+}
+
+.student-select_container {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 10px 0;
+  margin: 10px;
+  box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.6);
+}
+
+.select {
+  width: 140px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.student-list_container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 90px;
+  margin: 10px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  align-self: center;
+  box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.6);
+}
+
+.student-list_container h3 {
+  margin: 10px;
+}
+
+.button-moeilijk {
+  border: 1px solid rgba(238, 3, 23, 0.8);
+}
+
+.button-leuk {
+  border: 1px solid rgb(255, 188, 5);
+}
+
+.button-default {
+  border: 1px solid rgb(55, 80, 100);
+}
+
+.button-moeilijk:hover {
+  border-left: 10px solid rgba(238, 3, 23, 0.8);
+  transition: all 200ms ease-out;
+}
+
+.button-leuk:hover {
+  border-left: 10px solid rgb(255, 208, 0);
+  transition: all 200ms ease-out;
+}
+
+.button-default:hover {
+  border-left: 10px solid rgb(55, 80, 100);
+  transition: all 200ms ease-out;
+}
+
+.student-feature_container {
+  position: relative;
+  width: 280px;
+  margin: 10px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  align-self: center;
+  box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.6);
+}
+
+.student-info_container {
+  text-align: left;
+  margin: 10px;
+}
+
+.student-donut_container {
+  background-color: transparent;
+  position: relative;
+  width: auto;
+  height: 150px;
+  border-radius: 0 0 10px 10px;
+  margin: 0 auto;
+  padding: 10px 10px;
+  z-index: 5;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 32px;
+  right: 87px;
+  z-index: 1;
+}
+
+.student-bar_container {
+  border-radius: 10px;
+  margin: 5px;
+  background-color: white;
+  width: 900px;
+  padding-top: 100px;
+}
+
+.student-right_container {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  background-color: rgb(137, 165, 185);
+}
+
+.student-mode_container {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  height: 120px;
+  padding: 10px 0px 10px 30px;
+  margin: 10px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  text-align: left;
+  align-self: center;
+  box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.6);
+}
+
+.student-mode_container h3 {
+  margin: 10px;
+}
+
+.student-mode_container label {
+  margin: 3px 0px;
+}
+
+.student-select_opdracht {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 10px 0;
+  margin: 10px;
+  box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.6);
+}
+
+.student-reset_container {
+  margin: 330px 10px 10px 10px;
+}
+
+.button-reset {
+  border: 1px solid rgb(55, 80, 100);
+}
+
+.button-reset:hover {
+  background-color: rgb(55, 80, 100);
+  color: white;
+  transition: all 200ms ease-out;
+}
